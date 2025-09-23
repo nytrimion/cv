@@ -284,7 +284,7 @@
                     Refonte complète du système d'information avec architecture REST séparant l'ERM Back Office du site Frontend : <a href="https://www.mychezmoi.com" target="_blank" style="color: #3498db; text-decoration: none;">http://www.mychezmoi.com</a>
                 </div>
                 <ul class="achievements">
-                    <li><strong>Innovation R&D :</strong> Adaptation Doctrine ORM pour API REST, architecture API-first pionnière</li>
+                    <li><strong>Innovation R&D :</strong> Architecture API-first accélérée par adaptation REST de Doctrine ORM</li>
                     <li><strong>Développement Fullstack :</strong> Volume optimisé pour 1000+ annonces immobilières</li>
                     <li><strong>Organisation :</strong> Collaboration PO et encadrement technique de 2 développeurs fullstack</li>
                 </ul>
