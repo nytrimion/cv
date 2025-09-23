@@ -281,12 +281,12 @@
                     <div class="job-period">04/2016 - 11/2018</div>
                 </div>
                 <div class="job-description">
-                    Complete information system refactoring with REST architecture separating the Back Office ERM from the Frontend site: <a href="https://www.mychezmoi.com" target="_blank" style="color: #3498db; text-decoration: none;">http://www.mychezmoi.com</a>
+                    Complete information system refactoring with REST architecture separating the Back Office ERM from the Frontend site: <a href="https://www.mychezmoi.com" target="_blank" style="color: #3498db; text-decoration: none;">https://www.mychezmoi.com</a>
                 </div>
                 <ul class="achievements">
-                    <li>Fullstack development with custom REST ORM (Hydra)</li>
-                    <li>Mapping UI (Google Maps) and volumetry optimization</li>
-                    <li>Management of 2 Fullstack developers</li>
+                    <li><strong>R&D Innovation:</strong> API-first architecture accelerated by REST adaptation of Doctrine ORM</li>
+                    <li><strong>Fullstack Development:</strong> Optimized volume handling for 1000+ real estate listings</li>
+                    <li><strong>Team Organization:</strong> PO collaboration and technical management of 2 fullstack developers</li>
                 </ul>
                 <div class="tech-stack">
                     <span class="tech-tag">PHP 5.6</span>
