@@ -85,20 +85,20 @@
                 <div class="experience-header">
                     <div>
                         <h3 class="job-title">Senior Backend Engineer</h3>
-                        <div class="company">PlayPlay - B2B video creation SaaS tool</div>
+                        <div class="company">PlayPlay - B2B video creation SaaS</div>
                         <div class="job-location">Paris - Permanent contract remote</div>
                     </div>
-                    <div class="job-period">10/2024 - Present</div>
+                    <div class="job-period">10/2024 - 05/2025</div>
                 </div>
                 <div class="job-description">
-                    PlayPlay provides a SaaS service for creating professional videos for marketing and internal or external communication purposes.
+                    SaaS platform for creating professional videos for marketing and internal or external communication purposes.
                 </div>
                 <ul class="achievements">
-                    <li>API design, development, optimization, refactoring and monitoring</li>
-                    <li>Quality and ROI driver for team deliverables</li>
-                    <li>Collaboration on planning with managers</li>
-                    <li>Mentoring fullstack engineers in the team</li>
-                    <li>Technology watch and knowledge sharing with the backend community</li>
+                    <li><strong>Video Editing APIs:</strong> Design, monitoring and optimizations: refactoring, performance, scaling</li>
+                    <li><strong>Quality Management:</strong> Compliance and ROI of backend deliverables</li>
+                    <li><strong>Team Leadership:</strong> Prioritization, planning and mentoring</li>
+                    <li><strong>Innovation:</strong> Technology watch + backend expertise sharing</li>
+                    <li><strong>Developer Experience:</strong> GitHub continuous integration optimization</li>
                 </ul>
                 <div class="tech-stack">
                     <span class="tech-tag">AI Dev</span>

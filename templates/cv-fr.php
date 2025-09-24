@@ -85,20 +85,20 @@
                 <div class="experience-header">
                     <div>
                         <h3 class="job-title">Senior Backend Engineer</h3>
-                        <div class="company">PlayPlay - Outil SaaS de création de vidéos B2B</div>
+                        <div class="company">PlayPlay - SaaS de création de vidéos B2B</div>
                         <div class="job-location">Paris - CDI en télétravail</div>
                     </div>
-                    <div class="job-period">10/2024 - Présent</div>
+                    <div class="job-period">10/2024 - 05/2025</div>
                 </div>
                 <div class="job-description">
-                    PlayPlay offre un service SaaS de création de vidéos professionnelles à usage du marketing et de communication interne ou externe.
+                    Plateforme SaaS de création de vidéos professionnelles à usage du marketing et de communication interne ou externe.
                 </div>
                 <ul class="achievements">
-                    <li>Conception, réalisation, optimisation, refactoring et monitoring de l'API</li>
-                    <li>Moteur sur la qualité et le ROI des livrables de l'équipe</li>
-                    <li>Collaboration à la planification avec les managers</li>
-                    <li>Mentoring des ingénieurs fullstack de l'équipe</li>
-                    <li>Veille technologique et partage de connaissance avec la communauté backend</li>
+                    <li><strong>API d'édition vidéo :</strong> Conception, monitoring et optimisations : refactoring, performance, scaling</li>
+                    <li><strong>Pilotage qualité :</strong> Conformité et ROI des livrables backend</li>
+                    <li><strong>Encadrement Équipe :</strong> Priorisation, planification et mentorat</li>
+                    <li><strong>Innovation :</strong> Veille technologique + partage expertise backend</li>
+                    <li><strong>Expérience Développeur :</strong> Optimisation d'intégration continue GitHub</li>
                 </ul>
                 <div class="tech-stack">
                     <span class="tech-tag">AI Dev</span>
