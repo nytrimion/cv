@@ -13,7 +13,7 @@
             <div class="profile-image"></div>
             <h1 class="name">David OURY</h1>
             <div class="title"><?= $title ?></div>
-            <div class="subtitle">21 years of experience</div>
+            <div class="subtitle">Modern Stack Advocate</div>
         </div>
 
         <div class="about-section">
@@ -45,76 +45,33 @@
 
             <div class="skill-category">
                 <h4>Backend</h4>
-                <div class="skill-tags">
-                    <span class="skill-tag">PHP 8</span>
-                    <span class="skill-tag">Symfony</span>
-                    <span class="skill-tag">Laravel</span>
-                    <span class="skill-tag">Golang</span>
-                    <span class="skill-tag">Redis</span>
-                    <span class="skill-tag">REST API</span>
-                    <span class="skill-tag">GraphQL</span>
-                    <span class="skill-tag">PostgreSQL</span>
-                    <span class="skill-tag">MySQL</span>
-                </div>
+                <?php require 'skills/backend.php' ?>
             </div>
 
             <div class="skill-category">
                 <h4>Frontend</h4>
-                <div class="skill-tags">
-                    <span class="skill-tag">TypeScript</span>
-                    <span class="skill-tag">JavaScript</span>
-                    <span class="skill-tag">Vue.js</span>
-                    <span class="skill-tag">HTML5</span>
-                    <span class="skill-tag">CSS3</span>
-                    <span class="skill-tag">SASS</span>
-                    <span class="skill-tag">jQuery</span>
-                    <span class="skill-tag">Bootstrap</span>
-                </div>
+                <?php require 'skills/frontend.php' ?>
             </div>
 
             <div class="skill-category">
                 <h4>Architecture</h4>
-                <div class="skill-tags">
-                    <span class="skill-tag">Clean Architecture</span>
-                    <span class="skill-tag">Hexagonal</span>
-                    <span class="skill-tag">CQRS</span>
-                    <span class="skill-tag">DDD</span>
-                    <span class="skill-tag">Microservices</span>
-                </div>
+                <?php require 'skills/architecture.php' ?>
             </div>
 
             <div class="skill-category">
                 <h4>DevOps & Monitoring</h4>
-                <div class="skill-tags">
-                    <span class="skill-tag">Docker</span>
-                    <span class="skill-tag">Apache</span>
-                    <span class="skill-tag">Nginx</span>
-                    <span class="skill-tag">Linux/Unix</span>
-                    <span class="skill-tag">CI/CD</span>
-                    <span class="skill-tag">Grafana</span>
-                    <span class="skill-tag">Datadog</span>
-                </div>
+                <?php require 'skills/devops.php' ?>
             </div>
 
             <div class="skill-category">
                 <h4>Principles & Methods</h4>
-                <div class="skill-tags">
-                    <span class="skill-tag">Generative AI</span>
-                    <span class="skill-tag">Clean code</span>
-                    <span class="skill-tag">SOLID</span>
-                    <span class="skill-tag">KISS</span>
-                    <span class="skill-tag">TDD</span>
-                    <span class="skill-tag">Code Review</span>
-                    <span class="skill-tag">Git</span>
-                    <span class="skill-tag">Agile</span>
-                    <span class="skill-tag">SCRUM</span>
-                </div>
+                <?php require 'skills/principles.php' ?>
             </div>
         </div>
 
         <div class="education-section">
             <h3 class="section-title">Training</h3>
-            <div class="tech-stack">
+            <div class="skill-tags">
                 <span class="skill-tag">2017 - Agile & SCRUM</span>
                 <span class="skill-tag">2012 - Symfony 2</span>
                 <span class="skill-tag">2009 - Zend PHP 5 Certification</span>
@@ -149,7 +106,7 @@
                     <li>Technology watch and knowledge sharing with the backend community</li>
                 </ul>
                 <div class="tech-stack">
-                    <span class="tech-tag">Generative AI</span>
+                    <span class="tech-tag">AI Dev</span>
                     <span class="tech-tag">PHP 8.4</span>
                     <span class="tech-tag">Laravel 10</span>
                     <span class="tech-tag">Architecture hexagonale</span>
@@ -202,7 +159,7 @@
                 <div class="experience-header">
                     <div>
                         <h3 class="job-title">Lead Developer</h3>
-                        <div class="company">Avis Vérifiés (NetReviews) - SaaS Publisher</div>
+                        <div class="company">Avis Vérifiés (NetReviews) - SaaS Platform</div>
                         <div class="job-location">Marseille - Permanent contract remote</div>
                     </div>
                     <div class="job-period">03/2021 - 01/2022</div>
@@ -211,10 +168,10 @@
                     Refactoring monolithic platform towards modern microservices architecture with international English-speaking team.
                 </div>
                 <ul class="achievements">
-                    <li>Backend technical leadership of the international team</li>
-                    <li>Architecture of Zendesk SSO, attestation and reviews listing</li>
-                    <li>API performance testing: strategy, scenarios, analysis, optimizations</li>
-                    <li>Recruitment and evaluation of technical profiles</li>
+                    <li><strong>Leadership:</strong> Management and mentoring of international backend team 8+ engineers</li>
+                    <li><strong>Architecture:</strong> Zendesk SSO, attestation and reviews listing refactoring</li>
+                    <li><strong>Performance:</strong> API optimizations (strategy, scenarios, analysis, fixes, 3x gains)</li>
+                    <li><strong>Recruitment:</strong> Evaluation of senior technical profiles</li>
                 </ul>
                 <div class="tech-stack">
                     <span class="tech-tag">PHP 7.4</span>
@@ -238,14 +195,21 @@
                 <div class="experience-header">
                     <div>
                         <h3 class="job-title">Lead Fullstack Developer</h3>
-                        <div class="company">KALITI - SaaS Publisher (Construction Sector)</div>
+                        <div class="company">KALITI - SaaS Platform (Construction Sector)</div>
                         <div class="job-location">Marseille - Permanent contract remote</div>
                     </div>
                     <div class="job-period">04/2019 - 03/2021</div>
                 </div>
                 <div class="job-description">
-                    SaaS service dedicated to the construction sector (Nexity, Bouygues, Vinci): defect management and tracking on plans.
+                    Service dedicated to the construction sector (Nexity, Bouygues, Vinci): defect management and tracking on plans.
                 </div>
+                <ul class="achievements">
+                    <li><strong>Technical Leadership:</strong> International team of 9 members</li>
+                    <li><strong>Architecture & DevOps:</strong> SSO and REST API, AWS administration</li>
+                    <li><strong>Fullstack Development:</strong> Performance optimization (cache, SQL)</li>
+                    <li><strong>360° Leadership:</strong> Data integration, client support and recruitment</li>
+                </ul>
+
                 <ul class="achievements">
                     <li>International team technical leadership</li>
                     <li>SSO and REST API architecture, AWS administration</li>
