@@ -9,12 +9,7 @@
 <body>
 <div class="cv-container">
     <div class="sidebar">
-        <div class="profile-section">
-            <div class="profile-image"></div>
-            <h1 class="name">David OURY</h1>
-            <div class="title"><?= $title ?></div>
-            <div class="subtitle">Modern Stack Advocate</div>
-        </div>
+        <?php require 'profile-section.php' ?>
 
         <div class="about-section">
             <div>La Tech n'est qu'un moyen, pas une fin en soi.</div>
