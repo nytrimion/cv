@@ -103,7 +103,7 @@
                     <span class="tech-tag">AI Dev</span>
                     <span class="tech-tag">PHP 8.4</span>
                     <span class="tech-tag">Laravel 10</span>
-                    <span class="tech-tag">Architecture hexagonale</span>
+                    <span class="tech-tag">Hexagonal Architecture</span>
                     <span class="tech-tag">CQRS</span>
                     <span class="tech-tag">Clean code</span>
                     <span class="tech-tag">REST</span>
