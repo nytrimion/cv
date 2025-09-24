@@ -126,13 +126,12 @@
                     <div class="job-period">04/2022 - 09/2024</div>
                 </div>
                 <div class="job-description">
-                    Marketplace européenne mettant en relation marques et commerces détaillants indépendants. Contribution à plusieurs équipes d'ingénieurs anglophones (+50).
+                    Marketplace européenne mettant en relation plus de 30 000 marques et commerces de détail indépendants. Contribution à plusieurs équipes d'ingénieurs anglophones (+50).
                 </div>
                 <ul class="achievements">
-                    <li><strong>Squad Monetization :</strong> Conception d'un service Go pour publicités pertinentes avec indexation Elasticsearch et facturation des clics</li>
-                    <li><strong>Squad Catalog :</strong> Ré-implémentation des stocks et variations produits</li>
-                    <li>Conception et réalisation d'un framework d'intégration multi-sources (Google Sheets, CSV, Shopify API, WooCommerce...) incluant workflow asynchrone et traçabilité</li>
-                    <li>Coordination de 3 équipes facilitée par l'architecture modulaire du framework de cet intégrateur multi-sources</li>
+                    <li><strong>Squad Monetization :</strong> Conception du microservice Go d'indexation des publicités pertinentes à insérer dans le catalogue des produits. Facturation des clics : 70+ k€ en 6 mois</li>
+                    <li><strong>Squad Catalog :</strong> Ré-implémentation des stocks/variations des produits + Framework de l'intégrateur produits asynchrone et multi-sources : Google Sheets, CSV, Excel, Shopify... 80 assistants client réaffectés</li>
+                    <li><strong>Coordination technique :</strong> 3 équipes via scalabilité modulaire de l'intégrateur multi-sources</li>
                 </ul>
                 <div class="tech-stack">
                     <span class="tech-tag">PHP 8.1</span>
