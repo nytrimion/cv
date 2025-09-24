@@ -126,13 +126,12 @@
                     <div class="job-period">04/2022 - 09/2024</div>
                 </div>
                 <div class="job-description">
-                    European marketplace connecting brands and independent retailers. Contribution to several English-speaking engineering teams (+50).
+                    European marketplace connecting 30,000+ brands and independent retailers. Contribution to several English-speaking engineering teams (+50).
                 </div>
                 <ul class="achievements">
-                    <li><strong>Monetization Squad:</strong> Design of a Go service for relevant ads with Elasticsearch indexing and click billing</li>
-                    <li><strong>Catalog Squad:</strong> Re-implementation of inventory and product variations</li>
-                    <li>Design and development of a multi-source integration framework (Google Sheets, CSV, Shopify API, WooCommerce...) including asynchronous workflow and traceability</li>
-                    <li>Coordination of 3 teams facilitated by the modular architecture of this multi-source integrator framework</li>
+                    <li><strong>Monetization Squad:</strong> Design of Go microservice for indexing relevant ads to insert in product catalog. Click billing: €70k+ in 6 months</li>
+                    <li><strong>Catalog Squad:</strong> Re-implementation of product inventory/variations + Asynchronous & multi-source product integrator framework: Google Sheets, CSV, Excel, Shopify... 80 client assistants reassigned</li>
+                    <li><strong>Technical Coordination:</strong> 3 teams via modular scalability of the multi-source product integrator</li>
                 </ul>
                 <div class="tech-stack">
                     <span class="tech-tag">PHP 8.1</span>
