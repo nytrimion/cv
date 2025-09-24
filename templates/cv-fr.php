@@ -12,8 +12,7 @@
         <?php require 'profile-section.php' ?>
 
         <div class="about-section">
-            <div>La Tech n'est qu'un moyen, pas une fin en soi.</div>
-            <div>On a tous besoin des autres pour avancer.</div>
+            La Tech n'est qu'un moyen, pas une fin en soi.
         </div>
 
         <div class="contact-info">
@@ -31,7 +30,7 @@
             </div>
             <div class="contact-item">
                 <span class="contact-icon">🌍</span>
-                <span>Anglais courant</span>
+                <span>Anglais bilingue</span>
             </div>
         </div>
 

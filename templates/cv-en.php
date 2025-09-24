@@ -12,8 +12,7 @@
         <?php require 'profile-section.php' ?>
 
         <div class="about-section">
-            <div>Tech is only a means, not an end in itself.</div>
-            <div>We all need others to move forward.</div>
+            Tech is only a means, not an end in itself.
         </div>
 
         <div class="contact-info">
