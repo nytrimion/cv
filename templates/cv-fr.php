@@ -256,7 +256,7 @@
                 <div class="experience-header">
                     <div>
                         <h3 class="job-title">Parcours Développeur & Architecte</h3>
-                        <div class="company">Sociétés ESN et éditeurs - Expériences antérieures</div>
+                        <div class="company">ESN et éditeurs - Expériences antérieures</div>
                         <div class="job-location">Paris, Marseille, Aix-en-Provence</div>
                     </div>
                     <div class="job-period">03/2004 - 04/2016</div>

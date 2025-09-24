@@ -203,13 +203,6 @@
                     <li><strong>Fullstack Development:</strong> Performance optimization (cache, SQL)</li>
                     <li><strong>360° Leadership:</strong> Data integration, client support and recruitment</li>
                 </ul>
-
-                <ul class="achievements">
-                    <li>International team technical leadership</li>
-                    <li>SSO and REST API architecture, AWS administration</li>
-                    <li>Fullstack development, performance optimization (cache, SQL)</li>
-                    <li>Data integration, client support and recruitment</li>
-                </ul>
                 <div class="tech-stack">
                     <span class="tech-tag">PHP 7.3</span>
                     <span class="tech-tag">Symfony 4</span>
