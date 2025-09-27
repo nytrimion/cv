@@ -61,6 +61,11 @@
                 <h4>Principles & Methods</h4>
                 <?php require 'skills/principles.php' ?>
             </div>
+
+            <div class="skill-category">
+                <h4>AI-Enhanced Engineering ⚡</h4>
+                <?php require 'skills/artificial-intelligence.php' ?>
+            </div>
         </div>
 
         <div class="education-section">
