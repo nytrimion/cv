@@ -9,66 +9,45 @@
 <body>
 <div class="cv-container">
     <div class="sidebar">
-        <?php require 'profile-section.php' ?>
+        <?php require 'sidebar/profile.php' ?>
 
         <div class="about-section">
             La Tech n'est qu'un moyen, pas une fin en soi.
         </div>
 
-        <div class="contact-info">
-            <div class="contact-item">
-                <span class="contact-icon">📧</span>
-                <a href="mailto:oury.david@gmail.com" class="contact-link">oury.david@gmail.com</a>
-            </div>
-            <div class="contact-item">
-                <span class="contact-icon">📱</span>
-                <a href="tel:+33689461559" class="contact-link">06 89 46 15 59</a>
-            </div>
-            <div class="contact-item">
-                <span class="contact-icon">📍</span>
-                <span>Marseille 13006</span>
-            </div>
-            <div class="contact-item">
-                <span class="contact-icon">🌍</span>
-                <span>Anglais bilingue</span>
-            </div>
-            <div class="contact-item">
-                <span class="contact-icon">🔗</span>
-                <a href="https://github.com/nytrimion?tab=repositories" target="_blank" class="contact-link">github.com/nytrimion</a>
-            </div>
-        </div>
+        <?php require 'sidebar/contact.php' ?>
 
         <div class="skills-section">
             <h3 class="section-title">Compétences Techniques</h3>
 
             <div class="skill-category">
                 <h4>Backend</h4>
-                <?php require 'skills/backend.php' ?>
+                <?php require 'sidebar/skills/backend.php' ?>
             </div>
 
             <div class="skill-category">
                 <h4>Frontend</h4>
-                <?php require 'skills/frontend.php' ?>
+                <?php require 'sidebar/skills/frontend.php' ?>
             </div>
 
             <div class="skill-category">
                 <h4>Architecture</h4>
-                <?php require 'skills/architecture.php' ?>
+                <?php require 'sidebar/skills/architecture.php' ?>
             </div>
 
             <div class="skill-category">
                 <h4>DevOps & Monitoring</h4>
-                <?php require 'skills/devops.php' ?>
+                <?php require 'sidebar/skills/devops.php' ?>
             </div>
 
             <div class="skill-category">
                 <h4>Principes & Méthodes</h4>
-                <?php require 'skills/principles.php' ?>
+                <?php require 'sidebar/skills/principles.php' ?>
             </div>
 
             <div class="skill-category">
                 <h4>Ingénierie Augmentée par IA ⚡</h4>
-                <?php require 'skills/artificial-intelligence.php' ?>
+                <?php require 'sidebar/skills/artificial-intelligence.php' ?>
             </div>
         </div>
 
