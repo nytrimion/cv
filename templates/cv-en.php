@@ -18,11 +18,11 @@
         <div class="contact-info">
             <div class="contact-item">
                 <span class="contact-icon">📧</span>
-                <span>oury.david@gmail.com</span>
+                <a href="mailto:oury.david@gmail.com" class="contact-link">oury.david@gmail.com</a>
             </div>
             <div class="contact-item">
                 <span class="contact-icon">📱</span>
-                <span>+33 6 89 46 15 59</span>
+                <a href="tel:+33689461559" class="contact-link">+33 6 89 46 15 59</a>
             </div>
             <div class="contact-item">
                 <span class="contact-icon">📍</span>
@@ -31,6 +31,10 @@
             <div class="contact-item">
                 <span class="contact-icon">🌍</span>
                 <span>Fluent English</span>
+            </div>
+            <div class="contact-item">
+                <span class="contact-icon">🔗</span>
+                <a href="https://github.com/nytrimion?tab=repositories" target="_blank" class="contact-link">github.com/nytrimion</a>
             </div>
         </div>
 

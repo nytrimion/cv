@@ -106,6 +106,20 @@ body {
     text-align: center;
 }
 
+.contact-link {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+.contact-link::after {
+    content: ' ↗';
+    font-size: 0.85em;
+}
+
 .section-title {
     font-size: 18px;
     font-weight: 600;
