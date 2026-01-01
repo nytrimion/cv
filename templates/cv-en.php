@@ -91,7 +91,8 @@
                     <span class="tech-tag">AI Dev</span>
                     <span class="tech-tag">PHP 8.4</span>
                     <span class="tech-tag">Laravel 10</span>
-                    <span class="tech-tag">Hexagonal Architecture</span>
+                    <span class="tech-tag">Hexagonal</span>
+                    <span class="tech-tag">DDD</span>
                     <span class="tech-tag">CQRS</span>
                     <span class="tech-tag">Clean code</span>
                     <span class="tech-tag">REST</span>
@@ -100,6 +101,7 @@
                     <span class="tech-tag">Kubernetes</span>
                     <span class="tech-tag">GCP</span>
                     <span class="tech-tag">Datadog</span>
+                    <span class="tech-tag">GitHub Actions</span>
                 </div>
             </div>
 
@@ -123,7 +125,9 @@
                 <div class="tech-stack">
                     <span class="tech-tag">PHP 8.1</span>
                     <span class="tech-tag">Laravel 9</span>
-                    <span class="tech-tag">Golang 1.21</span>
+                    <span class="tech-tag">Go 1.21</span>
+                    <span class="tech-tag">Hexagonal</span>
+                    <span class="tech-tag">DDD</span>
                     <span class="tech-tag">REST</span>
                     <span class="tech-tag">JSONAPI</span>
                     <span class="tech-tag">MySQL</span>
@@ -157,7 +161,7 @@
                 <div class="tech-stack">
                     <span class="tech-tag">PHP 7.4</span>
                     <span class="tech-tag">Symfony 4.4</span>
-                    <span class="tech-tag">Hexagonal Architecture</span>
+                    <span class="tech-tag">Hexagonal</span>
                     <span class="tech-tag">REST</span>
                     <span class="tech-tag">JWT</span>
                     <span class="tech-tag">MongoDB</span>
@@ -212,7 +216,7 @@
             <div class="experience-item">
                 <div class="experience-header">
                     <div>
-                        <h3 class="job-title">Lead Developer</h3>
+                        <h3 class="job-title">Lead Fullstack Developer</h3>
                         <div class="company">MYCHEZMOI - Real Estate Agency</div>
                         <div class="job-location">Marseille - Permanent contract</div>
                     </div>
@@ -231,8 +235,10 @@
                     <span class="tech-tag">Symfony 2.8</span>
                     <span class="tech-tag">Doctrine</span>
                     <span class="tech-tag">API Platform</span>
+                    <span class="tech-tag">REST</span>
                     <span class="tech-tag">PostgreSQL</span>
                     <span class="tech-tag">Google Maps API</span>
+                    <span class="tech-tag">JavaScript</span>
                     <span class="tech-tag">jQuery</span>
                     <span class="tech-tag">CSS3</span>
                     <span class="tech-tag">SASS</span>
@@ -263,6 +269,9 @@
                     <span class="tech-tag">REST</span>
                     <span class="tech-tag">SOAP</span>
                     <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">jQuery</span>
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
                     <span class="tech-tag">Apache</span>
                 </div>
             </div>

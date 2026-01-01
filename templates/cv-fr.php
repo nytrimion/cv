@@ -91,7 +91,8 @@
                     <span class="tech-tag">AI Dev</span>
                     <span class="tech-tag">PHP 8.4</span>
                     <span class="tech-tag">Laravel 10</span>
-                    <span class="tech-tag">Architecture hexagonale</span>
+                    <span class="tech-tag">Hexagonal</span>
+                    <span class="tech-tag">DDD</span>
                     <span class="tech-tag">CQRS</span>
                     <span class="tech-tag">Clean code</span>
                     <span class="tech-tag">REST</span>
@@ -100,6 +101,7 @@
                     <span class="tech-tag">Kubernetes</span>
                     <span class="tech-tag">GCP</span>
                     <span class="tech-tag">Datadog</span>
+                    <span class="tech-tag">GitHub Actions</span>
                 </div>
             </div>
 
@@ -123,7 +125,9 @@
                 <div class="tech-stack">
                     <span class="tech-tag">PHP 8.1</span>
                     <span class="tech-tag">Laravel 9</span>
-                    <span class="tech-tag">Golang 1.21</span>
+                    <span class="tech-tag">Go 1.21</span>
+                    <span class="tech-tag">Hexagonal</span>
+                    <span class="tech-tag">DDD</span>
                     <span class="tech-tag">REST</span>
                     <span class="tech-tag">JSONAPI</span>
                     <span class="tech-tag">MySQL</span>
@@ -149,7 +153,7 @@
                     Refonte de plateforme monolithique vers architecture microservices moderne avec équipe internationale anglophone.
                 </div>
                 <ul class="achievements">
-                    <li><strong>Leadership :</strong> Encadrement et monitorat backend équipe internationale 8+ ingénieurs</li>
+                    <li><strong>Leadership :</strong> Encadrement et mentorat backend équipe internationale 8+ ingénieurs</li>
                     <li><strong>Architecture :</strong> SSO Zendesk, refonte des attestations et liste des avis</li>
                     <li><strong>Performances :</strong> Optimisations API (stratégie, scénarios, analyse, correctifs, gains x3)</li>
                     <li><strong>Recrutement :</strong> Evaluation des profils techniques senior</li>
@@ -157,7 +161,7 @@
                 <div class="tech-stack">
                     <span class="tech-tag">PHP 7.4</span>
                     <span class="tech-tag">Symfony 4.4</span>
-                    <span class="tech-tag">Architecture hexagonale</span>
+                    <span class="tech-tag">Hexagonal</span>
                     <span class="tech-tag">REST</span>
                     <span class="tech-tag">JWT</span>
                     <span class="tech-tag">MongoDB</span>
@@ -219,7 +223,7 @@
                     <div class="job-period">04/2016 - 11/2018</div>
                 </div>
                 <div class="job-description">
-                    Refonte complète du système d'information avec architecture REST séparant l'ERM Back Office du site Frontend : <a href="https://www.mychezmoi.com" target="_blank" style="color: #3498db; text-decoration: none;">http://www.mychezmoi.com</a>
+                    Refonte complète du système d'information avec architecture REST séparant l'ERM Back Office du site Frontend : <a href="https://www.mychezmoi.com" target="_blank" style="color: #3498db; text-decoration: none;">https://www.mychezmoi.com</a>
                 </div>
                 <ul class="achievements">
                     <li><strong>Innovation R&D :</strong> Architecture API-first accélérée par adaptation REST de Doctrine ORM</li>
@@ -231,8 +235,10 @@
                     <span class="tech-tag">Symfony 2.8</span>
                     <span class="tech-tag">Doctrine</span>
                     <span class="tech-tag">API Platform</span>
+                    <span class="tech-tag">REST</span>
                     <span class="tech-tag">PostgreSQL</span>
                     <span class="tech-tag">Google Maps API</span>
+                    <span class="tech-tag">JavaScript</span>
                     <span class="tech-tag">jQuery</span>
                     <span class="tech-tag">CSS3</span>
                     <span class="tech-tag">SASS</span>
@@ -263,6 +269,9 @@
                     <span class="tech-tag">REST</span>
                     <span class="tech-tag">SOAP</span>
                     <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">jQuery</span>
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
                     <span class="tech-tag">Apache</span>
                 </div>
             </div>
