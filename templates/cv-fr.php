@@ -66,6 +66,23 @@
     </div>
 
     <div class="main-content">
+
+        <section class="summary-section">
+
+            <div class="summary-item">
+                <div class="summary-description">
+                    Senior/Staff software engineer avec 20+ ans d'expérience en architecture backend et tech leadership d'équipes internationales.
+                </div>
+                <ul class="summary-list">
+                    <li>Livrer de la valeur en production (80 collaborateurs réaffectés)</li>
+                    <li>Structurer le code pour optimiser sa maintenance (performances x3)</li>
+                    <li>Progresser et faire monter les équipes en compétence (12 membres)</li>
+                    <li>Intégrer une méthodologie IA qui améliore qualité et productivité</li>
+                </ul>
+            </div>
+
+        </section>
+
         <section class="experience-section">
 
             <div class="experience-item">
@@ -84,7 +101,6 @@
                     <li><strong>API d'édition vidéo :</strong> Conception, monitoring et optimisations : refactoring, performance, scaling</li>
                     <li><strong>Pilotage qualité :</strong> Conformité et ROI des livrables backend</li>
                     <li><strong>Encadrement Équipe :</strong> Priorisation, planification et mentorat</li>
-                    <li><strong>Innovation :</strong> Veille technologique + partage expertise backend</li>
                     <li><strong>Expérience Développeur :</strong> Optimisation d'intégration continue GitHub</li>
                 </ul>
                 <div class="tech-stack">
@@ -118,8 +134,8 @@
                     Marketplace européenne mettant en relation plus de 30 000 marques et commerces de détail indépendants. Contribution à plusieurs équipes d'ingénieurs anglophones (+50).
                 </div>
                 <ul class="achievements">
-                    <li><strong>Squad Monetization :</strong> Conception du microservice Go d'indexation des publicités pertinentes à insérer dans le catalogue des produits. Facturation des clics : 70+ k€ en 6 mois</li>
-                    <li><strong>Squad Catalog :</strong> Ré-implémentation des stocks/variations des produits + Framework de l'intégrateur produits asynchrone et multi-sources : Google Sheets, CSV, Excel, Shopify... 80 assistants client réaffectés</li>
+                    <li><strong>Squad Monetization :</strong> Microservice Go d'indexation publicitaire pour le catalogue produits. Facturation des clics : 70+ k€ en 6 mois</li>
+                    <li><strong>Squad Catalog :</strong> Framework d'intégration asynchrone multi-sources (Google Sheets, CSV, Excel, Shopify) → 80 assistants réaffectés</li>
                     <li><strong>Coordination technique :</strong> 3 équipes via scalabilité modulaire de l'intégrateur multi-sources</li>
                 </ul>
                 <div class="tech-stack">
@@ -153,9 +169,9 @@
                     Refonte de plateforme monolithique vers architecture microservices moderne avec équipe internationale anglophone.
                 </div>
                 <ul class="achievements">
-                    <li><strong>Leadership :</strong> Encadrement et mentorat backend équipe internationale 8+ ingénieurs</li>
+                    <li><strong>Leadership :</strong> Mentorat équipe internationale backend (8+ ingénieurs)</li>
                     <li><strong>Architecture :</strong> SSO Zendesk, refonte des attestations et liste des avis</li>
-                    <li><strong>Performances :</strong> Optimisations API (stratégie, scénarios, analyse, correctifs, gains x3)</li>
+                    <li><strong>Performances :</strong> Optimisations API → gains x3</li>
                     <li><strong>Recrutement :</strong> Evaluation des profils techniques senior</li>
                 </ul>
                 <div class="tech-stack">

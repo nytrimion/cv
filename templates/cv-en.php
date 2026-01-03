@@ -66,6 +66,23 @@
     </div>
 
     <div class="main-content">
+
+        <section class="summary-section">
+
+            <div class="summary-item">
+                <div class="summary-description">
+                    Senior/Staff software engineer with 20+ years of experience in backend architecture and international team tech leadership.
+                </div>
+                <ul class="summary-list">
+                    <li>Deliver value in production (80 collaborators reassigned)</li>
+                    <li>Structure code for optimized maintainability (3x performance gains)</li>
+                    <li>Grow and upskill teams (12 members)</li>
+                    <li>Integrate AI methodology that improves quality and productivity</li>
+                </ul>
+            </div>
+
+        </section>
+
         <section class="experience-section">
 
             <div class="experience-item">
@@ -84,7 +101,6 @@
                     <li><strong>Video Editing APIs:</strong> Design, monitoring and optimizations: refactoring, performance, scaling</li>
                     <li><strong>Quality Management:</strong> Compliance and ROI of backend deliverables</li>
                     <li><strong>Team Leadership:</strong> Prioritization, planning and mentoring</li>
-                    <li><strong>Innovation:</strong> Technology watch + backend expertise sharing</li>
                     <li><strong>Developer Experience:</strong> GitHub continuous integration optimization</li>
                 </ul>
                 <div class="tech-stack">
@@ -118,8 +134,8 @@
                     European marketplace connecting 30,000+ brands and independent retailers. Contribution to several English-speaking engineering teams (+50).
                 </div>
                 <ul class="achievements">
-                    <li><strong>Monetization Squad:</strong> Design of Go microservice for indexing relevant ads to insert in product catalog. Click billing: €70k+ in 6 months</li>
-                    <li><strong>Catalog Squad:</strong> Re-implementation of product inventory/variations + Asynchronous & multi-source product integrator framework: Google Sheets, CSV, Excel, Shopify... 80 client assistants reassigned</li>
+                    <li><strong>Monetization Squad:</strong> Go microservice for ads indexing in product catalog. Click billing: €70k+ in 6 months</li>
+                    <li><strong>Catalog Squad:</strong> Asynchronous & multi-source integrator framework (Google Sheets, CSV, Excel, Shopify) → 80 client assistants reassigned</li>
                     <li><strong>Technical Coordination:</strong> 3 teams via modular scalability of the multi-source product integrator</li>
                 </ul>
                 <div class="tech-stack">
@@ -153,9 +169,9 @@
                     Refactoring monolithic platform towards modern microservices architecture with international English-speaking team.
                 </div>
                 <ul class="achievements">
-                    <li><strong>Leadership:</strong> Management and mentoring of international backend team 8+ engineers</li>
+                    <li><strong>Leadership:</strong> International backend team mentoring (8+ engineers)</li>
                     <li><strong>Architecture:</strong> Zendesk SSO, attestation and reviews listing refactoring</li>
-                    <li><strong>Performance:</strong> API optimizations (strategy, scenarios, analysis, fixes, 3x gains)</li>
+                    <li><strong>Performance:</strong> API optimizations → 3x gains</li>
                     <li><strong>Recruitment:</strong> Evaluation of senior technical profiles</li>
                 </ul>
                 <div class="tech-stack">
