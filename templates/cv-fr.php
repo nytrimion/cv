@@ -11,10 +11,6 @@
     <div class="sidebar">
         <?php require 'sidebar/profile.php' ?>
 
-        <div class="about-section">
-            La Tech n'est qu'un moyen, pas une fin en soi.
-        </div>
-
         <?php require 'sidebar/contact.php' ?>
 
         <div class="skills-section">
@@ -71,14 +67,21 @@
 
             <div class="summary-item">
                 <div class="summary-description">
-                    Senior/Staff software engineer avec 20+ ans d'expérience en architecture backend et tech leadership d'équipes internationales.
+                    <p>
+                        Mon expérience de plus de 20 ans en architecture et encadrement d'équipes
+                        internationales m'a convaincu que la Tech n'est qu'un moyen au service du business.
+                    </p>
+                    <p>
+                        Mon approche :
+                        analyser le besoin métier,
+                        livrer de la valeur en production,
+                        structurer le code pour sa maintenabilité,
+                        et intégrer une méthodologie IA qui améliore qualité et productivité.
+                    </p>
+                    <p>
+                        Ce qui me motive : partager l'expertise et progresser sans cesse.
+                    </p>
                 </div>
-                <ul class="summary-list">
-                    <li>Livrer de la valeur en production (80 collaborateurs réaffectés)</li>
-                    <li>Structurer le code pour optimiser sa maintenance (performances x3)</li>
-                    <li>Progresser et faire monter les équipes en compétence (12 membres)</li>
-                    <li>Intégrer une méthodologie IA qui améliore qualité et productivité</li>
-                </ul>
             </div>
 
         </section>

@@ -11,10 +11,6 @@
     <div class="sidebar">
         <?php require 'sidebar/profile.php' ?>
 
-        <div class="about-section">
-            Tech is only a means, not an end in itself.
-        </div>
-
         <?php require 'sidebar/contact.php' ?>
 
         <div class="skills-section">
@@ -71,14 +67,21 @@
 
             <div class="summary-item">
                 <div class="summary-description">
-                    Senior/Staff software engineer with 20+ years of experience in backend architecture and international team tech leadership.
+                    <p>
+                        My 20+ years of experience in architecture and leading international teams
+                        have convinced me that Tech is only a means to serve business goals.
+                    </p>
+                    <p>
+                        My approach:
+                        analyze business needs,
+                        deliver value in production,
+                        structure code for maintainability,
+                        and integrate AI methodology that improves quality and productivity.
+                    </p>
+                    <p>
+                        What drives me: sharing expertise and continuous growth.
+                    </p>
                 </div>
-                <ul class="summary-list">
-                    <li>Deliver value in production (80 collaborators reassigned)</li>
-                    <li>Structure code for optimized maintainability (3x performance gains)</li>
-                    <li>Grow and upskill teams (12 members)</li>
-                    <li>Integrate AI methodology that improves quality and productivity</li>
-                </ul>
             </div>
 
         </section>

@@ -46,11 +46,14 @@
         <div class="row">
             <label for="title">Job Title:</label>
             <select id="title" name="title">
+                <option>Senior/Lead Developer</option>
                 <option>Lead Developer</option>
                 <option>Senior Backend Developer</option>
                 <option>Senior Backend Engineer</option>
                 <option>Senior Fullstack Developer</option>
                 <option>Senior Fullstack Engineer</option>
+                <option>Staff Engineer</option>
+                <option>Tech Lead</option>
             </select>
             <input type="text" id="custom-title" name="custom-title" placeholder="Custom job title" />
         </div>

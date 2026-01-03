@@ -7,13 +7,10 @@
     margin-bottom: 25px;
     padding: 20px 25px;
     background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border-left: 4px solid #3498db;
     border-radius: 15px;
     position: relative;
     break-inside: avoid;
-}
-
-.experience-item {
-    border-left: 4px solid #3498db;
 }
 
 .summary-item>:first-child,
@@ -129,12 +126,9 @@
         margin-bottom: 15px !important;
         padding: 15px !important;
         background: linear-gradient(135deg, #f8f9fa, #e9ecef) !important;
+        border-left: 3px solid #3498db !important;
         -webkit-print-color-adjust: exact;
         color-adjust: exact;
-    }
-
-    .experience-item {
-        border-left: 3px solid #3498db !important;
     }
 
     .summary-item>:first-child,
