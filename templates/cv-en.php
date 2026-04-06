@@ -91,14 +91,49 @@
             <div class="experience-item">
                 <div class="experience-header">
                     <div>
+                        <h3 class="job-title">Independent R&D Engineer</h3>
+                        <div class="company">Technology watch & Skill development</div>
+                    </div>
+                    <div class="job-period">06/2025 - Present</div>
+                </div>
+                <div class="job-description">
+                    Technical stack expansion and development of AI-assisted development and training methodologies.
+                </div>
+                <ul class="achievements">
+                    <li><strong>IoT Mobile App:</strong> Continuous voice transcription POC (React Native/Expo), pivot to Flutter/Dart, local LLM benchmark (Ollama) with prompting strategy scoring</li>
+                    <li><strong>Python Self-Training:</strong> Async clean architecture (asyncio, threading, Celery). AI-as-mentor methodology (published on GitHub)</li>
+                    <li><strong>React 19 / Next.js Self-Training:</strong> Advanced features, same AI-driven training methodology</li>
+                    <li><strong>AI Methodology:</strong> Matured development workflow: collaborative planning, documentation, context management, systematic code review</li>
+                </ul>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">FastAPI</span>
+                    <span class="tech-tag">asyncio</span>
+                    <span class="tech-tag">Celery</span>
+                    <span class="tech-tag">React 19</span>
+                    <span class="tech-tag">Next.js</span>
+                    <span class="tech-tag">Flutter</span>
+                    <span class="tech-tag">Dart</span>
+                    <span class="tech-tag">React Native</span>
+                    <span class="tech-tag">Expo</span>
+                    <span class="tech-tag">Claude Code</span>
+                    <span class="tech-tag">Ollama</span>
+                    <span class="tech-tag">LLM</span>
+                    <span class="tech-tag">Prompt Engineering</span>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
                         <h3 class="job-title">Senior Backend Engineer</h3>
                         <div class="company">PlayPlay - B2B video creation SaaS</div>
-                        <div class="job-location">Paris - Permanent contract remote</div>
+                        <div class="job-location">Paris - Full-time, remote</div>
                     </div>
                     <div class="job-period">10/2024 - 05/2025</div>
                 </div>
                 <div class="job-description">
-                    SaaS platform for creating professional videos for marketing and internal or external communication purposes.
+                    SaaS platform for creating professional videos for marketing and internal/external communications.
                 </div>
                 <ul class="achievements">
                     <li><strong>Video Editing APIs:</strong> Design, monitoring and optimizations: refactoring, performance, scaling</li>
@@ -129,7 +164,7 @@
                     <div>
                         <h3 class="job-title">Senior Backend Engineer</h3>
                         <div class="company">Ankorstore - European B2B Marketplace</div>
-                        <div class="job-location">Paris - Permanent contract remote</div>
+                        <div class="job-location">Paris - Full-time, remote</div>
                     </div>
                     <div class="job-period">04/2022 - 09/2024</div>
                 </div>
@@ -164,7 +199,7 @@
                     <div>
                         <h3 class="job-title">Lead Developer</h3>
                         <div class="company">Avis Vérifiés (NetReviews) - SaaS Platform</div>
-                        <div class="job-location">Marseille - Permanent contract remote</div>
+                        <div class="job-location">Marseille - Full-time, remote</div>
                     </div>
                     <div class="job-period">03/2021 - 01/2022</div>
                 </div>
@@ -200,7 +235,7 @@
                     <div>
                         <h3 class="job-title">Lead Fullstack Developer</h3>
                         <div class="company">KALITI - SaaS Platform (Construction Sector)</div>
-                        <div class="job-location">Marseille - Permanent contract remote</div>
+                        <div class="job-location">Marseille - Full-time, remote</div>
                     </div>
                     <div class="job-period">04/2019 - 03/2021</div>
                 </div>
@@ -237,17 +272,17 @@
                     <div>
                         <h3 class="job-title">Lead Fullstack Developer</h3>
                         <div class="company">MYCHEZMOI - Real Estate Agency</div>
-                        <div class="job-location">Marseille - Permanent contract</div>
+                        <div class="job-location">Marseille - Full-time</div>
                     </div>
                     <div class="job-period">04/2016 - 11/2018</div>
                 </div>
                 <div class="job-description">
-                    Complete information system refactoring with REST architecture separating the Back Office ERM from the Frontend site: <a href="https://www.mychezmoi.com" target="_blank" style="color: #3498db; text-decoration: none;">https://www.mychezmoi.com</a>
+                    Complete information system refactoring separating the Frontend site from the Back Office ERM: <a href="https://www.mychezmoi.com" target="_blank" style="color: #3498db; text-decoration: none;">https://www.mychezmoi.com</a>
                 </div>
                 <ul class="achievements">
                     <li><strong>R&D Innovation:</strong> API-first architecture accelerated by REST adaptation of Doctrine ORM</li>
-                    <li><strong>Fullstack Development:</strong> Optimized volume handling for 1000+ real estate listings</li>
-                    <li><strong>Team Organization:</strong> PO collaboration and technical management of 2 fullstack developers</li>
+                    <li><strong>Fullstack Development:</strong> Optimized volume for 1000+ real estate listings</li>
+                    <li><strong>Team Lead:</strong> PO collaboration, technical management of 2 developers</li>
                 </ul>
                 <div class="tech-stack">
                     <span class="tech-tag">PHP 5.6</span>
@@ -274,10 +309,10 @@
                     <div class="job-period">03/2004 - 04/2016</div>
                 </div>
                 <ul class="achievements">
-                    <li><strong>SO-BUZZ - Symfony R&D Manager (03/2015-04/2016):</strong> Social networks gamification, SOA REST platform design</li>
-                    <li><strong>HighCo Data - 2S Computing - Web Engineer (11/2014-03/2015):</strong> Couponing platform refactoring - Frontend & Backoffice</li>
-                    <li><strong>Virgin Mobile - ACENSI - Lead Developer (11/2012-03/2014):</strong> Technical leadership of 12 team members, development/deployment process industrialization, PHP 4/5 migrations, roadmap optimization and recruitment</li>
-                    <li><strong>INFOTEL - Java/PHP Architect (03/2004-11/2011):</strong> Clients: Peugeot PSA, BNP Paribas, AGF, BEL, Ministry of National Education. PHP referent, design & development, technical leadership up to 10 coworkers, outsourcing & fixed-price projects, technology watch and R&D</li>
+                    <li><strong>SO-BUZZ (03/2015-04/2016):</strong> Symfony R&D Manager, SOA REST social gamification platform</li>
+                    <li><strong>HighCo Data (11/2014-03/2015):</strong> Couponing platform refactoring - Frontend & Backoffice</li>
+                    <li><strong>Virgin Mobile / ACENSI (11/2012-03/2014):</strong> Lead Developer, 12-member team, CI/CD industrialization, PHP 4→5 migrations</li>
+                    <li><strong>INFOTEL (03/2004-11/2011):</strong> Java/PHP Architect @ PSA, BNP Paribas, AGF, BEL, Min. of National Education. Leadership up to 10 coworkers</li>
                 </ul>
                 <div class="tech-stack">
                     <span class="tech-tag">PHP 4/5</span>

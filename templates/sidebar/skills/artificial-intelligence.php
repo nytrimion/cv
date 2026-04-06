@@ -4,4 +4,6 @@
     <span class="skill-tag">Specialized Agents</span>
     <span class="skill-tag">Context Engineering</span>
     <span class="skill-tag">Workflow Automation</span>
+    <span class="skill-tag">Claude Code</span>
+    <span class="skill-tag">Ollama</span>
 </div>

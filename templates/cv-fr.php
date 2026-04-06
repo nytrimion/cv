@@ -91,6 +91,41 @@
             <div class="experience-item">
                 <div class="experience-header">
                     <div>
+                        <h3 class="job-title">Ingénieur R&D Indépendant</h3>
+                        <div class="company">Veille technologique & montée en compétences</div>
+                    </div>
+                    <div class="job-period">06/2025 - Présent</div>
+                </div>
+                <div class="job-description">
+                    Extension de stack technique et élaboration de méthodologies assistées par IA.
+                </div>
+                <ul class="achievements">
+                    <li><strong>Application mobile IoT :</strong> POC de transcription vocale continue (React Native/Expo), pivot vers Flutter/Dart, benchmark de LLMs avec scoring des stratégies de prompting</li>
+                    <li><strong>Autoformation Python :</strong> Clean architecture asynchrone (asyncio, threading, Celery). Supervision par IA comme mentor (méthode publiée sur GitHub)</li>
+                    <li><strong>Autoformation React 19 / Next.js :</strong> Fonctionnalités avancées, même méthodologie par IA</li>
+                    <li><strong>Méthodologie IA :</strong> Maturation du workflow de développement : planification collaborative, documentations, gestion de contexte, review systématique</li>
+                </ul>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">FastAPI</span>
+                    <span class="tech-tag">asyncio</span>
+                    <span class="tech-tag">Celery</span>
+                    <span class="tech-tag">React 19</span>
+                    <span class="tech-tag">Next.js</span>
+                    <span class="tech-tag">Flutter</span>
+                    <span class="tech-tag">Dart</span>
+                    <span class="tech-tag">React Native</span>
+                    <span class="tech-tag">Expo</span>
+                    <span class="tech-tag">Claude Code</span>
+                    <span class="tech-tag">Ollama</span>
+                    <span class="tech-tag">LLM</span>
+                    <span class="tech-tag">Prompt Engineering</span>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
                         <h3 class="job-title">Senior Backend Engineer</h3>
                         <div class="company">PlayPlay - SaaS de création de vidéos B2B</div>
                         <div class="job-location">Paris - CDI en télétravail</div>
@@ -98,7 +133,7 @@
                     <div class="job-period">10/2024 - 05/2025</div>
                 </div>
                 <div class="job-description">
-                    Plateforme SaaS de création de vidéos professionnelles à usage du marketing et de communication interne ou externe.
+                    Plateforme SaaS de création de vidéos professionnelles pour le marketing et la communication interne ou externe.
                 </div>
                 <ul class="achievements">
                     <li><strong>API d'édition vidéo :</strong> Conception, monitoring et optimisations : refactoring, performance, scaling</li>
@@ -209,7 +244,7 @@
                 </div>
                 <ul class="achievements">
                     <li><strong>Encadrement technique :</strong> Equipe internationale de 9 membres</li>
-                    <li><strong>Architecture & DevOps:</strong> SSO et API REST, administration AWS</li>
+                    <li><strong>Architecture & DevOps :</strong> SSO et API REST, administration AWS</li>
                     <li><strong>Développement Fullstack :</strong> Optimisation performances (cache, SQL)</li>
                     <li><strong>Leadership 360° :</strong> Intégration de données, support client et recrutement</li>
                 </ul>
@@ -242,12 +277,12 @@
                     <div class="job-period">04/2016 - 11/2018</div>
                 </div>
                 <div class="job-description">
-                    Refonte complète du système d'information avec architecture REST séparant l'ERM Back Office du site Frontend : <a href="https://www.mychezmoi.com" target="_blank" style="color: #3498db; text-decoration: none;">https://www.mychezmoi.com</a>
+                    Refonte complète du système d'information qui distingue le site Frontend de l'ERM Back Office : <a href="https://www.mychezmoi.com" target="_blank" style="color: #3498db; text-decoration: none;">https://www.mychezmoi.com</a>
                 </div>
                 <ul class="achievements">
                     <li><strong>Innovation R&D :</strong> Architecture API-first accélérée par adaptation REST de Doctrine ORM</li>
                     <li><strong>Développement Fullstack :</strong> Volume optimisé pour 1000+ annonces immobilières</li>
-                    <li><strong>Organisation :</strong> Collaboration PO et encadrement technique de 2 développeurs fullstack</li>
+                    <li><strong>Coordination :</strong> Collaboration PO et encadrement technique de 2 développeurs fullstack</li>
                 </ul>
                 <div class="tech-stack">
                     <span class="tech-tag">PHP 5.6</span>
@@ -274,10 +309,10 @@
                     <div class="job-period">03/2004 - 04/2016</div>
                 </div>
                 <ul class="achievements">
-                    <li><strong>Responsable R&D Symfony - SO-BUZZ (03/2015-04/2016) :</strong> Gamification des réseaux sociaux, Conception plateforme SOA REST</li>
-                    <li><strong>Ingénieur Web - HighCo Data - 2S Computing (11/2014-03/2015) :</strong> Refonte plateforme couponing - Frontend & Backoffice</li>
-                    <li><strong>Lead Developer - Virgin Mobile - ACENSI (11/2012-03/2014) :</strong> Encadrement technique d'équipe de 12 personnes, industrialisation des process de développement/déploiement, migrations PHP 4 vers PHP 5, optimisation roadmaps et recrutement</li>
-                    <li><strong>Architecte Java/PHP - INFOTEL (03/2004-11/2011) :</strong> Clients : Peugeot PSA, BNP Paribas, AGF, BEL, Ministère Éducation Nationale. Référent PHP, conception & réalisation, encadrement technique jusqu'à 10 personnes, régie & forfait, veille technologique et R&D</li>
+                    <li><strong>SO-BUZZ (03/2015-04/2016) :</strong> Responsable R&D Symfony, plateforme SOA REST de gamification sociale</li>
+                    <li><strong>HighCo Data (11/2014-03/2015) :</strong> Refonte plateforme couponing - Frontend & Backoffice</li>
+                    <li><strong>Virgin Mobile / ACENSI (11/2012-03/2014) :</strong> Lead Developer, équipe de 12, industrialisation CI/CD, migrations PHP 4→5</li>
+                    <li><strong>INFOTEL (03/2004-11/2011) :</strong> Architecte Java/PHP @ PSA, BNP Paribas, AGF, BEL, Min. Éducation Nationale. Encadrement jusqu'à 10 personnes</li>
                 </ul>
                 <div class="tech-stack">
                     <span class="tech-tag">PHP 4/5</span>
