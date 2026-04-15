@@ -9,41 +9,36 @@
 <body>
 <div class="cv-container">
     <div class="sidebar">
-        <?php require 'sidebar/profile.php' ?>
+        <?php $this->render('profile') ?>
 
-        <?php require 'sidebar/contact.php' ?>
+        <?php $this->render('contact') ?>
 
         <div class="skills-section">
             <h3 class="section-title">Compétences Techniques</h3>
 
             <div class="skill-category">
                 <h4>Backend</h4>
-                <?php require 'sidebar/skills/backend.php' ?>
+                <?php $this->render('skills/backend') ?>
             </div>
 
             <div class="skill-category">
                 <h4>Frontend</h4>
-                <?php require 'sidebar/skills/frontend.php' ?>
+                <?php $this->render('skills/frontend') ?>
             </div>
 
             <div class="skill-category">
                 <h4>Architecture</h4>
-                <?php require 'sidebar/skills/architecture.php' ?>
+                <?php $this->render('skills/architecture') ?>
             </div>
 
             <div class="skill-category">
                 <h4>DevOps & Monitoring</h4>
-                <?php require 'sidebar/skills/devops.php' ?>
+                <?php $this->render('skills/devops') ?>
             </div>
 
             <div class="skill-category">
                 <h4>Principes & Méthodes</h4>
-                <?php require 'sidebar/skills/principles.php' ?>
-            </div>
-
-            <div class="skill-category">
-                <h4>Ingénierie Augmentée par IA ⚡</h4>
-                <?php require 'sidebar/skills/artificial-intelligence.php' ?>
+                <?php $this->render('skills/principles') ?>
             </div>
         </div>
 
@@ -52,11 +47,10 @@
             <div class="skill-tags">
                 <span class="skill-tag">2017 - Agile & SCRUM</span>
                 <span class="skill-tag">2012 - Symfony 2</span>
-                <span class="skill-tag">2009 - Certification Zend PHP 5</span>
-                <span class="skill-tag">2009 - Zend Server</span>
-                <span class="skill-tag">2006 - Design UML (Orsys)</span>
-                <span class="skill-tag">2004 - Java, Struts (Infotel)</span>
-                <span class="skill-tag">2002 - EPITA - Systèmes & Réseaux</span>
+                <span class="skill-tag">Certification Zend PHP 5</span>
+                <span class="skill-tag">Design UML</span>
+                <span class="skill-tag">Java / Struts</span>
+                <span class="skill-tag">EPITA - Systèmes & Réseaux</span>
             </div>
         </div>
     </div>
@@ -68,18 +62,19 @@
             <div class="summary-item">
                 <div class="summary-description">
                     <p>
-                        Mon expérience de plus de 20 ans en architecture et encadrement d'équipes
-                        internationales m'a convaincu que la Tech n'est qu'un moyen au service du business.
+                        Développeur backend senior, spécialisé PHP / Symfony / Laravel.
+                        J'interviens sur des plateformes SaaS à fort trafic :
+                        conception d'APIs, performance, qualité de code, refactorings structurants.
                     </p>
                     <p>
                         Mon approche :
-                        analyser le besoin métier,
-                        livrer de la valeur en production,
-                        structurer le code pour sa maintenabilité,
-                        et intégrer une méthodologie IA qui améliore qualité et productivité.
+                        comprendre le besoin métier,
+                        livrer vite et proprement,
+                        maintenir un code lisible.
                     </p>
                     <p>
-                        Ce qui me motive : partager l'expertise et progresser sans cesse.
+                        J'ai coordonné des équipes quand le contexte l'exigeait,
+                        mais mon quotidien reste le développement assisté par l'IA comme un outil de productivité (Claude Code).
                     </p>
                 </div>
             </div>
@@ -97,13 +92,13 @@
                     <div class="job-period">06/2025 - Présent</div>
                 </div>
                 <div class="job-description">
-                    Extension de stack technique et élaboration de méthodologies assistées par IA.
+                    Extension de stack et intégration IA dans des projets backend. Repositories publics incluant tests unitaires et outillage qualité.
                 </div>
                 <ul class="achievements">
-                    <li><strong>Application mobile IoT :</strong> POC de transcription vocale continue (React Native/Expo), pivot vers Flutter/Dart, benchmark de LLMs avec scoring des stratégies de prompting</li>
-                    <li><strong>Autoformation Python :</strong> Clean architecture asynchrone (asyncio, threading, Celery). Supervision par IA comme mentor (méthode publiée sur GitHub)</li>
-                    <li><strong>Autoformation React 19 / Next.js :</strong> Fonctionnalités avancées, même méthodologie par IA</li>
-                    <li><strong>Méthodologie IA :</strong> Maturation du workflow de développement : planification collaborative, documentations, gestion de contexte, review systématique</li>
+                    <li><strong>Test Backend Python</strong> (<a href="https://github.com/nytrimion/user-registration" target="_blank" style="color: #3498db; text-decoration: none;">nytrimion/user-registration</a>) : FastAPI, SQL brut, Docker, CI GitHub Actions, Documentations, ADRs, assistance IA structurée</li>
+                    <li><strong>Autoformation React / Next.js</strong> (<a href="https://github.com/nytrimion/react-training" target="_blank" style="color: #3498db; text-decoration: none;">nytrimion/react-training</a>) : Fondamentaux, versions récentes, exercices et tests : Modal, Data List, Accordion, Tabs, Todo, Infinite List... En cours.</li>
+                    <li><strong>Autoformation Python</strong> (<a href="https://github.com/nytrimion/python-training" target="_blank" style="color: #3498db; text-decoration: none;">nytrimion/python-training</a>) : Cours structurés, exercices avec tests unitaires, IA comme tuteur</li>
+                    <li><strong>POC interprétation vocale mobile</strong> (<a href="https://github.com/nytrimion/device-steward" target="_blank" style="color: #3498db; text-decoration: none;">nytrimion/device-steward</a>) : React Native/Expo, benchmark de LLMs, Docker avec validation qualité en CI</li>
                 </ul>
                 <div class="tech-stack">
                     <span class="tech-tag">Python</span>
@@ -112,14 +107,12 @@
                     <span class="tech-tag">Celery</span>
                     <span class="tech-tag">React 19</span>
                     <span class="tech-tag">Next.js</span>
-                    <span class="tech-tag">Flutter</span>
-                    <span class="tech-tag">Dart</span>
                     <span class="tech-tag">React Native</span>
                     <span class="tech-tag">Expo</span>
+                    <span class="tech-tag">Docker</span>
+                    <span class="tech-tag">GitHub Actions</span>
                     <span class="tech-tag">Claude Code</span>
-                    <span class="tech-tag">Ollama</span>
                     <span class="tech-tag">LLM</span>
-                    <span class="tech-tag">Prompt Engineering</span>
                 </div>
             </div>
 
@@ -296,37 +289,6 @@
                     <span class="tech-tag">jQuery</span>
                     <span class="tech-tag">CSS3</span>
                     <span class="tech-tag">SASS</span>
-                </div>
-            </div>
-
-            <div class="experience-item">
-                <div class="experience-header">
-                    <div>
-                        <h3 class="job-title">Parcours Développeur & Architecte</h3>
-                        <div class="company">ESN et éditeurs - Expériences antérieures</div>
-                        <div class="job-location">Paris, Marseille, Aix-en-Provence</div>
-                    </div>
-                    <div class="job-period">03/2004 - 04/2016</div>
-                </div>
-                <ul class="achievements">
-                    <li><strong>SO-BUZZ (03/2015-04/2016) :</strong> Responsable R&D Symfony, plateforme SOA REST de gamification sociale</li>
-                    <li><strong>HighCo Data (11/2014-03/2015) :</strong> Refonte plateforme couponing - Frontend & Backoffice</li>
-                    <li><strong>Virgin Mobile / ACENSI (11/2012-03/2014) :</strong> Lead Developer, équipe de 12, industrialisation CI/CD, migrations PHP 4→5</li>
-                    <li><strong>INFOTEL (03/2004-11/2011) :</strong> Architecte Java/PHP @ PSA, BNP Paribas, AGF, BEL, Min. Éducation Nationale. Encadrement jusqu'à 10 personnes</li>
-                </ul>
-                <div class="tech-stack">
-                    <span class="tech-tag">PHP 4/5</span>
-                    <span class="tech-tag">Symfony 2</span>
-                    <span class="tech-tag">Java/J2EE</span>
-                    <span class="tech-tag">MySQL</span>
-                    <span class="tech-tag">Oracle</span>
-                    <span class="tech-tag">REST</span>
-                    <span class="tech-tag">SOAP</span>
-                    <span class="tech-tag">JavaScript</span>
-                    <span class="tech-tag">jQuery</span>
-                    <span class="tech-tag">HTML</span>
-                    <span class="tech-tag">CSS</span>
-                    <span class="tech-tag">Apache</span>
                 </div>
             </div>
         </section>

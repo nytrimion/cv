@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,54 +9,54 @@
 <body>
 <div class="cv-container">
     <div class="sidebar">
-        <?php require 'sidebar/profile.php' ?>
+        <?php $this->render('profile') ?>
 
-        <?php require 'sidebar/contact.php' ?>
+        <?php $this->render('contact') ?>
 
         <div class="skills-section">
-            <h3 class="section-title">Technical Skills</h3>
+            <h3 class="section-title">Compétences Techniques</h3>
 
             <div class="skill-category">
                 <h4>Backend</h4>
-                <?php require 'sidebar/skills/backend.php' ?>
+                <?php $this->render('skills/backend') ?>
             </div>
 
             <div class="skill-category">
                 <h4>Frontend</h4>
-                <?php require 'sidebar/skills/frontend.php' ?>
+                <?php $this->render('skills/frontend') ?>
             </div>
 
             <div class="skill-category">
                 <h4>Architecture</h4>
-                <?php require 'sidebar/skills/architecture.php' ?>
+                <?php $this->render('skills/architecture') ?>
             </div>
 
             <div class="skill-category">
                 <h4>DevOps & Monitoring</h4>
-                <?php require 'sidebar/skills/devops.php' ?>
+                <?php $this->render('skills/devops') ?>
             </div>
 
             <div class="skill-category">
-                <h4>Principles & Methods</h4>
-                <?php require 'sidebar/skills/principles.php' ?>
+                <h4>Principes & Méthodes</h4>
+                <?php $this->render('skills/principles') ?>
             </div>
 
             <div class="skill-category">
-                <h4>AI-Enhanced Engineering ⚡</h4>
-                <?php require 'sidebar/skills/artificial-intelligence.php' ?>
+                <h4>Ingénierie Augmentée par IA ⚡</h4>
+                <?php $this->render('skills/artificial-intelligence') ?>
             </div>
         </div>
 
         <div class="education-section">
-            <h3 class="section-title">Training</h3>
+            <h3 class="section-title">Formations</h3>
             <div class="skill-tags">
                 <span class="skill-tag">2017 - Agile & SCRUM</span>
                 <span class="skill-tag">2012 - Symfony 2</span>
-                <span class="skill-tag">2009 - Zend PHP 5 Certification</span>
+                <span class="skill-tag">2009 - Certification Zend PHP 5</span>
                 <span class="skill-tag">2009 - Zend Server</span>
-                <span class="skill-tag">2006 - UML Design (Orsys)</span>
+                <span class="skill-tag">2006 - Design UML (Orsys)</span>
                 <span class="skill-tag">2004 - Java, Struts (Infotel)</span>
-                <span class="skill-tag">2002 - EPITA - Systems & Networks</span>
+                <span class="skill-tag">2002 - EPITA - Systèmes & Réseaux</span>
             </div>
         </div>
     </div>
@@ -68,18 +68,18 @@
             <div class="summary-item">
                 <div class="summary-description">
                     <p>
-                        My 20+ years of experience in architecture and leading international teams
-                        have convinced me that Tech is only a means to serve business goals.
+                        Mon expérience de plus de 20 ans en architecture et encadrement d'équipes
+                        internationales m'a convaincu que la Tech n'est qu'un moyen au service du business.
                     </p>
                     <p>
-                        My approach:
-                        analyze business needs,
-                        deliver value in production,
-                        structure code for maintainability,
-                        and integrate AI methodology that improves quality and productivity.
+                        Mon approche :
+                        analyser le besoin métier,
+                        livrer de la valeur en production,
+                        structurer le code pour sa maintenabilité,
+                        et intégrer une méthodologie IA qui améliore qualité et productivité.
                     </p>
                     <p>
-                        What drives me: sharing expertise and continuous growth.
+                        Ce qui me motive : partager l'expertise et progresser sans cesse.
                     </p>
                 </div>
             </div>
@@ -91,19 +91,19 @@
             <div class="experience-item">
                 <div class="experience-header">
                     <div>
-                        <h3 class="job-title">Independent R&D Engineer</h3>
-                        <div class="company">Technology watch & Skill development</div>
+                        <h3 class="job-title">Ingénieur R&D Indépendant</h3>
+                        <div class="company">Veille technologique & montée en compétences</div>
                     </div>
-                    <div class="job-period">06/2025 - Present</div>
+                    <div class="job-period">06/2025 - Présent</div>
                 </div>
                 <div class="job-description">
-                    Technical stack expansion and development of AI-assisted development and training methodologies.
+                    Extension de stack technique et élaboration de méthodologies assistées par IA.
                 </div>
                 <ul class="achievements">
-                    <li><strong>IoT Mobile App:</strong> Continuous voice transcription POC (React Native/Expo), pivot to Flutter/Dart, local LLM benchmark (Ollama) with prompting strategy scoring</li>
-                    <li><strong>Python Self-Training:</strong> Async clean architecture (asyncio, threading, Celery). AI-as-mentor methodology (published on GitHub)</li>
-                    <li><strong>React 19 / Next.js Self-Training:</strong> Advanced features, same AI-driven training methodology</li>
-                    <li><strong>AI Methodology:</strong> Matured development workflow: collaborative planning, documentation, context management, systematic code review</li>
+                    <li><strong>Application mobile IoT :</strong> POC de transcription vocale continue (React Native/Expo), pivot vers Flutter/Dart, benchmark de LLMs avec scoring des stratégies de prompting</li>
+                    <li><strong>Autoformation Python :</strong> Clean architecture asynchrone (asyncio, threading, Celery). Supervision par IA comme mentor (méthode publiée sur GitHub)</li>
+                    <li><strong>Autoformation React 19 / Next.js :</strong> Fonctionnalités avancées, même méthodologie par IA</li>
+                    <li><strong>Méthodologie IA :</strong> Maturation du workflow de développement : planification collaborative, documentations, gestion de contexte, review systématique</li>
                 </ul>
                 <div class="tech-stack">
                     <span class="tech-tag">Python</span>
@@ -127,19 +127,19 @@
                 <div class="experience-header">
                     <div>
                         <h3 class="job-title">Senior Backend Engineer</h3>
-                        <div class="company">PlayPlay - B2B video creation SaaS</div>
-                        <div class="job-location">Paris - Full-time, remote</div>
+                        <div class="company">PlayPlay - SaaS de création de vidéos B2B</div>
+                        <div class="job-location">Paris - CDI en télétravail</div>
                     </div>
                     <div class="job-period">10/2024 - 05/2025</div>
                 </div>
                 <div class="job-description">
-                    SaaS platform for creating professional videos for marketing and internal/external communications.
+                    Plateforme SaaS de création de vidéos professionnelles pour le marketing et la communication interne ou externe.
                 </div>
                 <ul class="achievements">
-                    <li><strong>Video Editing APIs:</strong> Design, monitoring and optimizations: refactoring, performance, scaling</li>
-                    <li><strong>Quality Management:</strong> Compliance and ROI of backend deliverables</li>
-                    <li><strong>Team Leadership:</strong> Prioritization, planning and mentoring</li>
-                    <li><strong>Developer Experience:</strong> GitHub continuous integration optimization</li>
+                    <li><strong>API d'édition vidéo :</strong> Conception, monitoring et optimisations : refactoring, performance, scaling</li>
+                    <li><strong>Pilotage qualité :</strong> Conformité et ROI des livrables backend</li>
+                    <li><strong>Encadrement Équipe :</strong> Priorisation, planification et mentorat</li>
+                    <li><strong>Expérience Développeur :</strong> Optimisation d'intégration continue GitHub</li>
                 </ul>
                 <div class="tech-stack">
                     <span class="tech-tag">AI Dev</span>
@@ -163,18 +163,18 @@
                 <div class="experience-header">
                     <div>
                         <h3 class="job-title">Senior Backend Engineer</h3>
-                        <div class="company">Ankorstore - European B2B Marketplace</div>
-                        <div class="job-location">Paris - Full-time, remote</div>
+                        <div class="company">Ankorstore - Marketplace B2B européenne</div>
+                        <div class="job-location">Paris - CDI en télétravail</div>
                     </div>
                     <div class="job-period">04/2022 - 09/2024</div>
                 </div>
                 <div class="job-description">
-                    European marketplace connecting 30,000+ brands and independent retailers. Contribution to several English-speaking engineering teams (+50).
+                    Marketplace européenne mettant en relation plus de 30 000 marques et commerces de détail indépendants. Contribution à plusieurs équipes d'ingénieurs anglophones (+50).
                 </div>
                 <ul class="achievements">
-                    <li><strong>Monetization Squad:</strong> Go microservice for ads indexing in product catalog. Click billing: €70k+ in 6 months</li>
-                    <li><strong>Catalog Squad:</strong> Asynchronous & multi-source integrator framework (Google Sheets, CSV, Excel, Shopify) → 80 client assistants reassigned</li>
-                    <li><strong>Technical Coordination:</strong> 3 teams via modular scalability of the multi-source product integrator</li>
+                    <li><strong>Squad Monetization :</strong> Microservice Go d'indexation publicitaire pour le catalogue produits. Facturation des clics : 70+ k€ en 6 mois</li>
+                    <li><strong>Squad Catalog :</strong> Framework d'intégration asynchrone multi-sources (Google Sheets, CSV, Excel, Shopify) → 80 assistants réaffectés</li>
+                    <li><strong>Coordination technique :</strong> 3 équipes via scalabilité modulaire de l'intégrateur multi-sources</li>
                 </ul>
                 <div class="tech-stack">
                     <span class="tech-tag">PHP 8.1</span>
@@ -198,19 +198,19 @@
                 <div class="experience-header">
                     <div>
                         <h3 class="job-title">Lead Developer</h3>
-                        <div class="company">Avis Vérifiés (NetReviews) - SaaS Platform</div>
-                        <div class="job-location">Marseille - Full-time, remote</div>
+                        <div class="company">Avis Vérifiés (NetReviews) - Plateforme SaaS</div>
+                        <div class="job-location">Marseille - CDI en télétravail</div>
                     </div>
                     <div class="job-period">03/2021 - 01/2022</div>
                 </div>
                 <div class="job-description">
-                    Refactoring monolithic platform towards modern microservices architecture with international English-speaking team.
+                    Refonte de plateforme monolithique vers architecture microservices moderne avec équipe internationale anglophone.
                 </div>
                 <ul class="achievements">
-                    <li><strong>Leadership:</strong> International backend team mentoring (8+ engineers)</li>
-                    <li><strong>Architecture:</strong> Zendesk SSO, attestation and reviews listing refactoring</li>
-                    <li><strong>Performance:</strong> API optimizations → 3x gains</li>
-                    <li><strong>Recruitment:</strong> Evaluation of senior technical profiles</li>
+                    <li><strong>Leadership :</strong> Mentorat équipe internationale backend (8+ ingénieurs)</li>
+                    <li><strong>Architecture :</strong> SSO Zendesk, refonte des attestations et liste des avis</li>
+                    <li><strong>Performances :</strong> Optimisations API → gains x3</li>
+                    <li><strong>Recrutement :</strong> Evaluation des profils techniques senior</li>
                 </ul>
                 <div class="tech-stack">
                     <span class="tech-tag">PHP 7.4</span>
@@ -234,19 +234,19 @@
                 <div class="experience-header">
                     <div>
                         <h3 class="job-title">Lead Fullstack Developer</h3>
-                        <div class="company">KALITI - SaaS Platform (Construction Sector)</div>
-                        <div class="job-location">Marseille - Full-time, remote</div>
+                        <div class="company">KALITI - Plateforme SaaS (Secteur BTP)</div>
+                        <div class="job-location">Marseille - CDI en télétravail</div>
                     </div>
                     <div class="job-period">04/2019 - 03/2021</div>
                 </div>
                 <div class="job-description">
-                    Service dedicated to the construction sector (Nexity, Bouygues, Vinci): defect management and tracking on plans.
+                    Service dédié au secteur du bâtiment (Nexity, Bouygues, Vinci) : gestion de réserves et suivi sur plans.
                 </div>
                 <ul class="achievements">
-                    <li><strong>Technical Leadership:</strong> International team of 9 members</li>
-                    <li><strong>Architecture & DevOps:</strong> SSO and REST API, AWS administration</li>
-                    <li><strong>Fullstack Development:</strong> Performance optimization (cache, SQL)</li>
-                    <li><strong>360° Leadership:</strong> Data integration, client support and recruitment</li>
+                    <li><strong>Encadrement technique :</strong> Equipe internationale de 9 membres</li>
+                    <li><strong>Architecture & DevOps :</strong> SSO et API REST, administration AWS</li>
+                    <li><strong>Développement Fullstack :</strong> Optimisation performances (cache, SQL)</li>
+                    <li><strong>Leadership 360° :</strong> Intégration de données, support client et recrutement</li>
                 </ul>
                 <div class="tech-stack">
                     <span class="tech-tag">PHP 7.3</span>
@@ -271,18 +271,18 @@
                 <div class="experience-header">
                     <div>
                         <h3 class="job-title">Lead Fullstack Developer</h3>
-                        <div class="company">MYCHEZMOI - Real Estate Agency</div>
-                        <div class="job-location">Marseille - Full-time</div>
+                        <div class="company">MYCHEZMOI - Agence immobilière</div>
+                        <div class="job-location">Marseille - CDI</div>
                     </div>
                     <div class="job-period">04/2016 - 11/2018</div>
                 </div>
                 <div class="job-description">
-                    Complete information system refactoring separating the Frontend site from the Back Office ERM: <a href="https://www.mychezmoi.com" target="_blank" style="color: #3498db; text-decoration: none;">https://www.mychezmoi.com</a>
+                    Refonte complète du système d'information qui distingue le site Frontend de l'ERM Back Office : <a href="https://www.mychezmoi.com" target="_blank" style="color: #3498db; text-decoration: none;">https://www.mychezmoi.com</a>
                 </div>
                 <ul class="achievements">
-                    <li><strong>R&D Innovation:</strong> API-first architecture accelerated by REST adaptation of Doctrine ORM</li>
-                    <li><strong>Fullstack Development:</strong> Optimized volume for 1000+ real estate listings</li>
-                    <li><strong>Team Lead:</strong> PO collaboration, technical management of 2 developers</li>
+                    <li><strong>Innovation R&D :</strong> Architecture API-first accélérée par adaptation REST de Doctrine ORM</li>
+                    <li><strong>Développement Fullstack :</strong> Volume optimisé pour 1000+ annonces immobilières</li>
+                    <li><strong>Coordination :</strong> Collaboration PO et encadrement technique de 2 développeurs fullstack</li>
                 </ul>
                 <div class="tech-stack">
                     <span class="tech-tag">PHP 5.6</span>
@@ -302,17 +302,17 @@
             <div class="experience-item">
                 <div class="experience-header">
                     <div>
-                        <h3 class="job-title">Developer & Architect Background</h3>
-                        <div class="company">IT companies and publishers - Previous experiences</div>
+                        <h3 class="job-title">Parcours Développeur & Architecte</h3>
+                        <div class="company">ESN et éditeurs - Expériences antérieures</div>
                         <div class="job-location">Paris, Marseille, Aix-en-Provence</div>
                     </div>
                     <div class="job-period">03/2004 - 04/2016</div>
                 </div>
                 <ul class="achievements">
-                    <li><strong>SO-BUZZ (03/2015-04/2016):</strong> Symfony R&D Manager, SOA REST social gamification platform</li>
-                    <li><strong>HighCo Data (11/2014-03/2015):</strong> Couponing platform refactoring - Frontend & Backoffice</li>
-                    <li><strong>Virgin Mobile / ACENSI (11/2012-03/2014):</strong> Lead Developer, 12-member team, CI/CD industrialization, PHP 4→5 migrations</li>
-                    <li><strong>INFOTEL (03/2004-11/2011):</strong> Java/PHP Architect @ PSA, BNP Paribas, AGF, BEL, Min. of National Education. Leadership up to 10 coworkers</li>
+                    <li><strong>SO-BUZZ (03/2015-04/2016) :</strong> Responsable R&D Symfony, plateforme SOA REST de gamification sociale</li>
+                    <li><strong>HighCo Data (11/2014-03/2015) :</strong> Refonte plateforme couponing - Frontend & Backoffice</li>
+                    <li><strong>Virgin Mobile / ACENSI (11/2012-03/2014) :</strong> Lead Developer, équipe de 12, industrialisation CI/CD, migrations PHP 4→5</li>
+                    <li><strong>INFOTEL (03/2004-11/2011) :</strong> Architecte Java/PHP @ PSA, BNP Paribas, AGF, BEL, Min. Éducation Nationale. Encadrement jusqu'à 10 personnes</li>
                 </ul>
                 <div class="tech-stack">
                     <span class="tech-tag">PHP 4/5</span>

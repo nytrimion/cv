@@ -11,15 +11,24 @@ final class Controller
         'fr' => 'French',
     ];
 
+    private array $positions;
+
+    public function __construct()
+    {
+        $this->positions = require dirname(__DIR__).'/config/positions.php';
+    }
+
     public function handle(): void
     {
         if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+            $positions = $this->positions;
             require 'templates/form.php';
 
             return;
         }
 
         $lang = $this->sanitizeInput('lang', 'fr');
+        $position = $this->sanitizeInput('position');
         $title = $this->sanitizeInput('title');
         $customTitle = $this->sanitizeInput('custom-title');
 
@@ -27,13 +36,20 @@ final class Controller
             $lang = 'fr';
         }
 
+        if (!array_key_exists($position, $this->positions)) {
+            $position = array_key_first($this->positions);
+        }
+
         if (!empty($customTitle)) {
             $title = $customTitle;
         }
 
-        $contact = new Contact($lang);
-
-        require "templates/cv-$lang.php";
+        $template = new Template($position, [
+            'lang' => $lang,
+            'title' => $title,
+            'contact' => new Contact($lang),
+        ]);
+        $template->render("cv-$lang");
     }
 
     private function sanitizeInput(string $name, string $default = ''): string
