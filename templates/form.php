@@ -37,6 +37,14 @@
 <body>
     <form method="POST" target="_blank">
         <div class="row">
+            <label for="position">Position:</label>
+            <select id="position" name="position">
+                <?php foreach ($positions as $key => $label): ?>
+                    <option value="<?= $key ?>"><?= $label ?></option>
+                <?php endforeach ?>
+            </select>
+        </div>
+        <div class="row">
             <label for="lang">Language:</label>
             <select id="lang" name="lang">
                 <option value="fr">French</option>
