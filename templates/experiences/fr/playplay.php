@@ -20,6 +20,8 @@
         <span class="tech-tag">AI Dev</span>
         <span class="tech-tag">PHP 8.4</span>
         <span class="tech-tag">Laravel 10</span>
+        <span class="tech-tag">PHPUnit</span>
+        <span class="tech-tag">Mockery</span>
         <span class="tech-tag">Hexagonal</span>
         <span class="tech-tag">DDD</span>
         <span class="tech-tag">CQRS</span>

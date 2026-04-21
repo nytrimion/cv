@@ -18,6 +18,8 @@
     <div class="tech-stack">
         <span class="tech-tag">PHP 8.1</span>
         <span class="tech-tag">Laravel 9</span>
+        <span class="tech-tag">PHPUnit</span>
+        <span class="tech-tag">Mockery</span>
         <span class="tech-tag">Go 1.21</span>
         <span class="tech-tag">Hexagonal</span>
         <span class="tech-tag">DDD</span>

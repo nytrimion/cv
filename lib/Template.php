@@ -25,8 +25,8 @@ final readonly class Template
 
     private function resolvePath(string $path): string
     {
-        $positioned = "{$this->basePath}/positions/{$this->position}/$path.php";
-        $fallback = "{$this->basePath}/$path.php";
+        $positioned = "{$this->basePath}/positions/{$this->position}/{$path}.php";
+        $fallback = "{$this->basePath}/{$path}.php";
 
         return is_file($positioned) ? $positioned : $fallback;
     }
