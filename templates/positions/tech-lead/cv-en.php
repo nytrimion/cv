@@ -78,9 +78,6 @@
                         structure code for maintainability,
                         and integrate AI methodology that improves quality and productivity.
                     </p>
-                    <p>
-                        What drives me: sharing expertise and continuous growth.
-                    </p>
                 </div>
             </div>
 

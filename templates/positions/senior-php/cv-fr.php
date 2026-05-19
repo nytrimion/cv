@@ -62,19 +62,13 @@
             <div class="summary-item">
                 <div class="summary-description">
                     <p>
-                        Développeur backend senior, spécialisé PHP / Symfony / Laravel.
+                        Développeur backend senior PHP / Symfony / Laravel.
                         J'interviens sur des plateformes SaaS à fort trafic :
                         conception d'APIs, performance, qualité de code, refactorings structurants.
                     </p>
                     <p>
-                        Mon approche :
-                        comprendre le besoin métier,
-                        livrer vite et proprement,
-                        maintenir un code lisible.
-                    </p>
-                    <p>
-                        J'ai coordonné des équipes quand le contexte l'exigeait,
-                        mais mon quotidien reste le développement assisté par l'IA comme un outil de productivité (Claude Code).
+                        Mon approche : comprendre le besoin métier, livrer vite et proprement, maintenir un code lisible.
+                        J'ai coordonné des équipes, mais mon quotidien reste le développement assisté par l'IA (Claude Code).
                     </p>
                 </div>
             </div>

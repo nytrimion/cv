@@ -63,20 +63,13 @@
             <div class="summary-item">
                 <div class="summary-description">
                     <p>
-                        Senior backend developer, specialized in PHP / Symfony / Laravel.
+                        Senior backend developer in PHP / Symfony / Laravel.
                         I work on high-traffic SaaS platforms:
                         API design, performance, code quality, structural refactorings.
                     </p>
                     <p>
-                        My approach:
-                        understand business needs,
-                        ship quickly and cleanly,
-                        maintain readable code.
-                    </p>
-                    <p>
-                        I have coordinated teams when the context required it,
-                        but my day-to-day remains development,
-                        increasingly assisted by AI as a productivity tool (Claude Code).
+                        My approach: understand business needs, ship quickly and cleanly, maintain readable code.
+                        I've coordinated teams, but my day-to-day remains AI-assisted development (Claude Code).
                     </p>
                 </div>
             </div>

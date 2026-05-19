@@ -78,9 +78,6 @@
                         structurer le code pour sa maintenabilité,
                         et intégrer une méthodologie IA qui améliore qualité et productivité.
                     </p>
-                    <p>
-                        Ce qui me motive : partager l'expertise et progresser sans cesse.
-                    </p>
                 </div>
             </div>
 
