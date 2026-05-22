@@ -12,7 +12,7 @@
     </div>
     <ul class="achievements">
         <li><strong>Innovation R&D :</strong> Architecture API-first accélérée par adaptation REST de Doctrine ORM</li>
-        <li><strong>Développement Fullstack :</strong> Volume optimisé pour 1000+ annonces immobilières</li>
+        <li><strong>Développement Fullstack :</strong> Volume optimisé pour 1000+ annonces</li>
         <li><strong>Coordination :</strong> Collaboration PO et encadrement technique de 2 développeurs fullstack</li>
     </ul>
     <div class="tech-stack">
